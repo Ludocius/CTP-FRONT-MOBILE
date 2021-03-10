@@ -1,17 +1,36 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 
 void main() {
-  runApp(MyApp());
+  runApp(LoginLayer());
 }
 
 //Wireframe 0.0.1
 //Author: Ludocius
 //TODO
-//Login
-//
+/*BUTTON FUNCTIONALITY
+*
+*
+*
+*
+*
+*
+*
+*/
 
-class MyApp extends StatelessWidget {
+
+
+class LoginLayer extends StatefulWidget {
+
+  @override
+  _LoginLayerState createState() => _LoginLayerState();
+}
+
+class _LoginLayerState extends State<LoginLayer>{
+
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
